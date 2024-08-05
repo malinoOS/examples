@@ -53,13 +53,13 @@ public class Program {
                         y = Math.Max(0, y - yMovement);
 
 
-						if (x > 160) x=160;
-						if (y > 50) y=50;
+			if (x > 160) x=160;
+			if (y > 50) y=50;
 
-						malinoIO.ClearScreen();
+			malinoIO.ClearScreen();
 
-						Console.Write($"\x1b[{y};{x}H");
-						Console.Write("\x1b[107m \x1b[40m\x1b[H");
+			Console.Write($"\x1b[{y};{x}H");
+			Console.Write("\x1b[107m \x1b[40m\x1b[H");
 
                         Console.WriteLine($"X: {x}, Y: {y}, Left: {leftButton}, Right: {rightButton}, Middle: {middleButton}");
                     }
