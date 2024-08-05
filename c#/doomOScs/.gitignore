@@ -1,0 +1,6 @@
+vmlinuz
+initramfs.cpio.gz
+doomOScs.iso
+bin
+obj
+malino.generated.cs
